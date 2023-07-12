@@ -5,11 +5,11 @@
 
 let prompt = require('prompt-sync')();
 
-let salario = parseFloat(prompt('digite seu salario: '))
+let salario = parseFloat(prompt('Digite seu salário: '));
 
 if (salario < 500) {
-    salarioReajuste = (salario * 0.3) + salario
-    console.log(`seu salario foi reajustado em 30%, ficando R$${salarioReajuste}`)
-}else {
-    console.log(`voce nao tem direito a reajuste`)
+    salarioReajuste = (salario * 0.3) + salario;
+    console.log(`Seu salário foi reajustado em 30%, ficando R$ ${salarioReajuste}`);
+} else {
+    console.log('Você não tem direito a reajuste');
 }

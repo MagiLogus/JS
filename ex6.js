@@ -16,6 +16,6 @@ if (media >=7) {
     console.log("APROVADO")
 } else if (media < 5) {
     console.log ("REPROVADO")
-} else if (media >= 5 || media <= 7 ){
-    console.log("REC")
+} else if (media >= 5 && media <= 7 ){
+    console.log("RECUPERAÇÃO")
 }
