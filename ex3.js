@@ -3,10 +3,10 @@
 
 let prompt = require('prompt-sync')();
 
-let numero = parseInt(prompt("digite um numero: "))
+let numero = parseInt(prompt("digite um número: "))
 
 if (numero > 0) {
-    console.log("O numero es positivo")
+    console.log("O número é positivo")
 } else {
-    console.log("O numero es negativo")
+    console.log("O número é negativo")
 }

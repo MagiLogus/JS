@@ -3,12 +3,12 @@
 
 let prompt = require('prompt-sync')();
 
-let numero = parseInt(prompt("digite um numero: "))
+let numero = parseInt(prompt("Digite um número: "))
 
 let restante = numero % 2
 
 if (restante != 0) {
-    console.log("O numero es impar")
+    console.log("O numero é ímpar")
 } else {
-    console.log("O numero es par")
+    console.log("O numero é par")
 }

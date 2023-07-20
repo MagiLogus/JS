@@ -6,19 +6,19 @@
 let prompt = require('prompt-sync')();
 let nome = prompt ("Digite seu nome: ");
 let cargo = prompt ("Digite o seu cargo: ");
-let salario = parseFloat(prompt ("Digite seu salario: "));
+let salario = parseFloat(prompt ("Digite seu salário: "));
 
 if (salario < 1000) {
     salarioAcrescido = (salario * 0.01) + salario
     console.log(`
-    Funcionario: ${nome}
-    salario: ${salarioAcrescido}
+    Funcionário: ${nome}
+    salário: ${salarioAcrescido}
     cargo: ${cargo}
     `)
 } else {
     console.log(`
-    Funcionario: ${nome}
-    salario: ${salario}
+    Funcionário: ${nome}
+    salário: ${salario}
     cargo: ${cargo}
     `)
 }

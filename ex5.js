@@ -3,12 +3,12 @@
 
 let prompt = require('prompt-sync')();
 
-let num1 = prompt("digite o primeiro numero: ")
-let num2 = prompt("digite o segundo numero: ")
+let num1 = prompt("Digite o primeiro número: ")
+let num2 = prompt("Digite o segundo número: ")
 
 if (num1 > num2) {
-    console.log("o primeiro numero es maior")
+    console.log("O primeiro número é maior")
 } else {
-    console.log("o segundo numero es maior")
+    console.log("O segundo número é maior")
 }
 
